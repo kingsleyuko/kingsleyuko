@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingsley</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a8079fc7e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src= "logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">NEWS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+
+
+</section>
+<!-------contact us---->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127184.15318742435!2d7.846982666971535!3d5.021549846890609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d57c1f8da6a51%3A0xe71e33ab2276d451!2sUyo%2C%20Akwa%20Ibom!5e0!3m2!1sen!2sng!4v1671443299905!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Ikot Ekpene Road, Itam flyover</h5>
+                    <p>Akwa ibom state, Nigeria</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+234 9029505239</h5>
+                    <p>Monday to Sunday, 12AM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>kingsleyphilipuko@gmail.com</h5>
+                    <p>Email Us</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="What's your name" required>
+                <input type="email" placeholder="Enter your Email address" required>
+                <input type="text" placeholder="Enter your Request" required>
+                <textarea rows="8" placeholder="Details" required></textarea>
+                <button type="submit" class="hero-btn gold-btn">Send Message</button>
+
+            </form>
+        </div>
+    </div>
+
+</section>
+
+<!----footer-->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>WORKDONE. is a fast growing software company availing quick and reliable client services<br>WORKDONE est une société de logiciels à croissance rapide qui propose des services clients rapides et fiables<br>WORKDONE es una empresa de software de rápido crecimiento que proporciona servicios de atención al cliente rápidos y fiables<br><a href="web.facebook.com/kingsley.philip.9659" target="_blank">who is workdone</a></a></p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made with WORKDONE.</p>
+</section>
+
+
+
+
+
+
+
+
+<!-------java toggle---->
+<script>
+//alert("This is the offical website of kingsley philip  Click ok to countinue")
+   // var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+
+
+</body>
+</html>
