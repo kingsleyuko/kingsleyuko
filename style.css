@@ -48,7 +48,6 @@ nav img{
 }
 .text-box{
     width: 85%;
-    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,7 +56,7 @@ nav img{
 }
 .text-box h1{
     font-size: 60px;
-    color: rgb(143, 122, 4);
+    color: #acaf0b;
 }
 .text-box p{
     margin: 10px 0 40px;
