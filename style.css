@@ -89,7 +89,7 @@ nav .fa{
 @media(max-width: 700px){
     .text-box h1{
         font-size: 19px;
-        color: rgb(143, 122, 4);
+        color: #acaf0b;
     }
     .nav-links ul li{
         display: block;
