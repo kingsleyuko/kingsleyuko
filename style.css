@@ -57,6 +57,7 @@ nav img{
 }
 .text-box h1{
     font-size: 60px;
+    color: rgb(143, 122, 4);
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -88,6 +89,7 @@ nav .fa{
 @media(max-width: 700px){
     .text-box h1{
         font-size: 19px;
+        color: rgb(143, 122, 4);
     }
     .nav-links ul li{
         display: block;
